@@ -36,4 +36,17 @@ Demostrar si es que existe, la relación entre episodios depresivos y el teletra
 
 # 3. Metodología y Resultados
 
-Esta es la sección principal. Aquí es donde pondréis los siguientes *chunks* de R para cargar, limpiar y analizar vuestros datos.
+```{r librerias, eval=TRUE, message=FALSE, warning=FALSE}
+
+library(tidyverse) 
+library(readr)    
+
+
+library(rjson)
+library(tidyjson)
+
+library(ggplot2)   # Gráficos estáticos
+library(plotly)    # Gráficos interactivos
+library(DT)        # Tablas interactivas
+library(mapSpain)  # Para los mapas
+library(gganimate)
