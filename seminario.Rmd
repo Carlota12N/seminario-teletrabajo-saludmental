@@ -15,3 +15,23 @@ text-align: justify}
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# 1. Introducción
+
+(Aquí escribiréis la contextualización del problema: la pandemia, el auge del teletrabajo, y la preocupación por sus efectos en la salud mental, citando alguna fuente).
+
+# 2. Objetivos
+
+## 2.1. Objetivo General
+
+(Aquí poned vuestro objetivo general. Por ejemplo: "Analizar la relación estadística entre la tasa de teletrabajo y la prevalencia de episodios depresivos en las Comunidades Autónomas de España".)
+
+## 2.2. Objetivos Específicos
+
+1.  Describir la implantación del teletrabajo por CCAA.
+2.  Estimar la prevalencia de episodios depresivos por CCAA.
+3.  Cuantificar la correlación entre ambas variables.
+4.  (Opcional: Analizar la fuente de datos JSON sobre ámbito laboral).
+
+# 3. Metodología y Resultados
+
+Esta es la sección principal. Aquí es donde pondréis los siguientes *chunks* de R para cargar, limpiar y analizar vuestros datos.
