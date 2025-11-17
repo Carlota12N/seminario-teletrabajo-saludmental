@@ -76,3 +76,31 @@ depresion_raw <- read_delim(
 datatable(depresion_raw)
 ```
 
+Procedemos a cargar el archivo .json con los datos de teletrabajo
+
+```{r carga_json_teletrabajo, eval=TRUE, message=FALSE, warning=FALSE}
+# Cargamos el archivo JSON de teletrabajo
+teletrabajo_json <- fromJSON(file = "input/data/teletrabajo.json")
+
+
+# VAMOS A VER QUÉ NOMBRES TIENE
+teletrabajo_valores <- teletrabajo_json %>%
+  enter_object(Data) %>%
+  gather_array %>%
+  spread_all
+  
+
+# Mostramos la tabla para ver los nombres verdaderos
+datatable(teletrabajo_valores)
+
+# (Asumimos que en tu JSON se llaman "MetaData" y "Nombre")
+teletrabajo_ccaa <- teletrabajo_json %>%
+  enter_object(MetaData) %>%
+  gather_array %>%
+  spread_all %>%
+  select(Nombre, document.id)
+
+teletrabajo_raw <- full_join(teletrabajo_valores, teletrabajo_ccaa, by = "document.id")
+
+# Mostramos la tabla limpia
+datatable(teletrabajo_raw)
