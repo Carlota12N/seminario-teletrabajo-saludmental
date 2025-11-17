@@ -25,15 +25,16 @@ Buscamos analizar cómo el aislamiento social, la falta de contacto humano, la m
 #  Objetivos
 
 ## Objetivo General
-Demostrar si es que existe, la relación entre episodios depresivos y el teletrabajo, en la actualidad para cada comunidad autónoma. 
+Demostrar si es que existe, la relación entre episodios depresivos y el teletrabajo, en la actualidad. 
 
 
 ## Objetivos Específicos
 
-1. Analizar la relación entre la modalidad de teletrabajo y el estado de salud mental de los trabajadores residentes en cada provincia de las Islas Canarias
+1. Analizar la relación entre la modalidad de teletrabajo y el estado de salud mental de los trabajadores residentes en cada comunidad autónoma.
 
-2. 
+2. Cuanto mayor es el peso del turismo y sectores presenciales en la economía local para cada provincia de las Islas Canarias , menor es la proporción de trabajadores que pueden tele trabajar y así podremos asociarlo con nuestra idea principal (la salud mental) 
 
+3.
 
 # 3. Metodología y Resultados
 
