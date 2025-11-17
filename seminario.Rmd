@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 # Introducción
 
-La relación entre la salud mental y el empleo, especialmente en el ámbito de la ingeniería y los trabajos que nos llevan a pasar muchas horas frente a un ordenador, ha cobrado una importancia creciente en los últimos años debido al aumento de casos de ansiedad, episodios depresivos y estrés laboral, así como otro tipo de enfermedades mentales entre los profesionales de los diferentes sectores. Nuestro seminario aborda este vínculo.
+La relación entre la salud mental y el empleo, especialmente en los trabajos que nos llevan a pasar muchas horas frente a un ordenador, ha cobrado una importancia creciente en los últimos años debido al aumento de casos de ansiedad, episodios depresivos y estrés laboral, así como otro tipo de enfermedades mentales entre los profesionales de los diferentes sectores. Nuestro seminario aborda este vínculo.
 
 Buscamos analizar cómo el aislamiento social, la falta de contacto humano, la monotonía y la dificultad para separar la vida laboral de la personal contribuyen a deteriorar el bienestar emocional de las personas que trabajan en espacios confinados. Además, queremos comprender por qué estos factores pueden desencadenar problemas como ansiedad, estrés, depresión y trastornos del sueño, y cómo el entorno laboral puede influir en la aparición y agravamiento de estos síntomas.
 
