@@ -30,11 +30,9 @@ Demostrar si es que existe, la relación entre episodios depresivos y el teletra
 
 ## Objetivos Específicos
 
-1. Analizar la relación entre la modalidad de teletrabajo y el estado de salud mental de los trabajadores residentes en cada comunidad autónoma.
+1. Analizar la relación entre el porcentaje de teletrabajo en las comunidades autónomas de España y los indicadores de salud mental de su población. 
 
-2. Cuanto mayor es el peso del turismo y sectores presenciales en la economía local para cada provincia de las Islas Canarias , menor es la proporción de trabajadores que pueden tele trabajar y así podremos asociarlo con nuestra idea principal (la salud mental) 
-
-3.
+2. 
 
 # 3. Metodología y Resultados
 
