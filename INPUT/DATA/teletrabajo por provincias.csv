@@ -1,0 +1,17 @@
+indicadores_id,indicadores_nombre,islas_id,islas_nombre,teletrabajo_porcentaje_empresas_teletrabajadores_personal_trabajaba_fuera_locales_empresa
+1,Porcentaje de empresas con teletrabajadores,ES70,Canarias,4.84
+1,Porcentaje de empresas con teletrabajadores,ES708,Lanzarote,3.44
+1,Porcentaje de empresas con teletrabajadores,ES704,Fuerteventura,2.33
+1,Porcentaje de empresas con teletrabajadores,ES705,Gran Canaria,5.31
+1,Porcentaje de empresas con teletrabajadores,ES709,Tenerife,5.33
+1,Porcentaje de empresas con teletrabajadores,ES706,La Gomera,3.77
+1,Porcentaje de empresas con teletrabajadores,ES707,La Palma,2.04
+1,Porcentaje de empresas con teletrabajadores,ES703,El Hierro,5.54
+2,Porcentaje del personal total que es teletrabajador,ES70,Canarias,1.21
+2,Porcentaje del personal total que es teletrabajador,ES708,Lanzarote,0.43
+2,Porcentaje del personal total que es teletrabajador,ES704,Fuerteventura,0.47
+2,Porcentaje del personal total que es teletrabajador,ES705,Gran Canaria,1.81
+2,Porcentaje del personal total que es teletrabajador,ES709,Tenerife,0.96
+2,Porcentaje del personal total que es teletrabajador,ES706,La Gomera,0.88
+2,Porcentaje del personal total que es teletrabajador,ES707,La Palma,0.43
+2,Porcentaje del personal total que es teletrabajador,ES703,El Hierro,1.03
