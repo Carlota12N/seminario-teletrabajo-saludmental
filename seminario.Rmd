@@ -15,22 +15,25 @@ text-align: justify}
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-# 1. Introducción
+# Introducción
 
-(Aquí escribiréis la contextualización del problema: la pandemia, el auge del teletrabajo, y la preocupación por sus efectos en la salud mental, citando alguna fuente).
+La relación entre la salud mental y el empleo, especialmente en el ámbito de la ingeniería y los trabajos que nos llevan a pasar muchas horas frente a un ordenador, ha cobrado una importancia creciente en los últimos años debido al aumento de casos de ansiedad, episodios depresivos y estrés laboral, así como otro tipo de enfermedades mentales entre los profesionales de los diferentes sectores. Nuestro seminario aborda este vínculo.
 
-# 2. Objetivos
+Buscamos analizar cómo el aislamiento social, la falta de contacto humano, la monotonía y la dificultad para separar la vida laboral de la personal contribuyen a deteriorar el bienestar emocional de las personas que trabajan en espacios confinados. Además, queremos comprender por qué estos factores pueden desencadenar problemas como ansiedad, estrés, depresión y trastornos del sueño, y cómo el entorno laboral puede influir en la aparición y agravamiento de estos síntomas.
 
-## 2.1. Objetivo General
 
-(Aquí poned vuestro objetivo general. Por ejemplo: "Analizar la relación estadística entre la tasa de teletrabajo y la prevalencia de episodios depresivos en las Comunidades Autónomas de España".)
+#  Objetivos
 
-## 2.2. Objetivos Específicos
+## Objetivo General
+Demostrar si es que existe, la relación entre episodios depresivos y el teletrabajo, en la actualidad para cada comunidad autónoma. 
 
-1.  Describir la implantación del teletrabajo por CCAA.
-2.  Estimar la prevalencia de episodios depresivos por CCAA.
-3.  Cuantificar la correlación entre ambas variables.
-4.  (Opcional: Analizar la fuente de datos JSON sobre ámbito laboral).
+
+## Objetivos Específicos
+
+1. Analizar la relación entre la modalidad de teletrabajo y el estado de salud mental de los trabajadores residentes en cada provincia de las Islas Canarias
+
+2. 
+
 
 # 3. Metodología y Resultados
 
