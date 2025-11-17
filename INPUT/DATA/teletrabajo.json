@@ -1,0 +1,1681 @@
+[{"Nombre":"Total nacional, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":37.41}
+]
+}
+,{"Nombre":"Total nacional, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":30.73}
+]
+}
+,{"Nombre":"Total nacional, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":25.49}
+]
+}
+,{"Nombre":"Total nacional, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":44.05}
+]
+}
+,{"Nombre":"Total nacional, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":20.04}
+]
+}
+,{"Nombre":"Total nacional, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":12.11}
+]
+}
+,{"Nombre":"Total nacional, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":6.72}
+]
+}
+,{"Nombre":"Total nacional, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":24.76}
+]
+}
+,{"Nombre":"Total nacional, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.4}
+]
+}
+,{"Nombre":"Total nacional, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.17}
+]
+}
+,{"Nombre":"Total nacional, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":2.18}
+]
+}
+,{"Nombre":"Total nacional, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Total nacional", "Codigo":"totalnacional"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.51}
+]
+}
+,{"Nombre":"Andalucía, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":30.94}
+]
+}
+,{"Nombre":"Andalucía, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":20.96}
+]
+}
+,{"Nombre":"Andalucía, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":27.26}
+]
+}
+,{"Nombre":"Andalucía, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":36.2}
+]
+}
+,{"Nombre":"Andalucía, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":10.7}
+]
+}
+,{"Nombre":"Andalucía, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":5.9}
+]
+}
+,{"Nombre":"Andalucía, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":5.04}
+]
+}
+,{"Nombre":"Andalucía, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":13.7}
+]
+}
+,{"Nombre":"Andalucía, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.25}
+]
+}
+,{"Nombre":"Andalucía, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.08}
+]
+}
+,{"Nombre":"Andalucía, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.97}
+]
+}
+,{"Nombre":"Andalucía, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Andalucía", "Codigo":"andalucia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.36}
+]
+}
+,{"Nombre":"Aragón, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":31.65}
+]
+}
+,{"Nombre":"Aragón, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":31.8}
+]
+}
+,{"Nombre":"Aragón, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":16.83}
+]
+}
+,{"Nombre":"Aragón, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":36.52}
+]
+}
+,{"Nombre":"Aragón, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":9.84}
+]
+}
+,{"Nombre":"Aragón, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":6.55}
+]
+}
+,{"Nombre":"Aragón, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":3.09}
+]
+}
+,{"Nombre":"Aragón, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":14.82}
+]
+}
+,{"Nombre":"Aragón, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.42}
+]
+}
+,{"Nombre":"Aragón, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.1}
+]
+}
+,{"Nombre":"Aragón, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.73}
+]
+}
+,{"Nombre":"Aragón, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Aragón", "Codigo":"aragon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.73}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":24.58}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":27.08}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":10.45}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":27.76}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":11.51}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":7.95}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":9.07}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":14.58}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.65}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":1.72}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.81}
+]
+}
+,{"Nombre":"Asturias, Principado de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Asturias, Principado de", "Codigo":"asturiasprincipadode"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":3.25}
+]
+}
+,{"Nombre":"Balears, Illes, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":26.6}
+]
+}
+,{"Nombre":"Balears, Illes, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":21.25}
+]
+}
+,{"Nombre":"Balears, Illes, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":16.18}
+]
+}
+,{"Nombre":"Balears, Illes, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":33.2}
+]
+}
+,{"Nombre":"Balears, Illes, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":12.54}
+]
+}
+,{"Nombre":"Balears, Illes, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":3.25}
+]
+}
+,{"Nombre":"Balears, Illes, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.58}
+]
+}
+,{"Nombre":"Balears, Illes, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":15.55}
+]
+}
+,{"Nombre":"Balears, Illes, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.33}
+]
+}
+,{"Nombre":"Balears, Illes, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.44}
+]
+}
+,{"Nombre":"Balears, Illes, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.22}
+]
+}
+,{"Nombre":"Balears, Illes, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Balears, Illes", "Codigo":"balearsilles"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.59}
+]
+}
+,{"Nombre":"Canarias, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":28.15}
+]
+}
+,{"Nombre":"Canarias, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":21.59}
+]
+}
+,{"Nombre":"Canarias, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":23.37}
+]
+}
+,{"Nombre":"Canarias, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":30.81}
+]
+}
+,{"Nombre":"Canarias, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":4.98}
+]
+}
+,{"Nombre":"Canarias, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":4.09}
+]
+}
+,{"Nombre":"Canarias, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":2.12}
+]
+}
+,{"Nombre":"Canarias, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":5.46}
+]
+}
+,{"Nombre":"Canarias, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.41}
+]
+}
+,{"Nombre":"Canarias, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.04}
+]
+}
+,{"Nombre":"Canarias, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.6}
+]
+}
+,{"Nombre":"Canarias, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Canarias", "Codigo":"canarias"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.65}
+]
+}
+,{"Nombre":"Cantabria, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":19.71}
+]
+}
+,{"Nombre":"Cantabria, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":18.78}
+]
+}
+,{"Nombre":"Cantabria, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":5.95}
+]
+}
+,{"Nombre":"Cantabria, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":25.12}
+]
+}
+,{"Nombre":"Cantabria, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":8.02}
+]
+}
+,{"Nombre":"Cantabria, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":9.08}
+]
+}
+,{"Nombre":"Cantabria, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":0.71}
+]
+}
+,{"Nombre":"Cantabria, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":8.49}
+]
+}
+,{"Nombre":"Cantabria, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.33}
+]
+}
+,{"Nombre":"Cantabria, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.15}
+]
+}
+,{"Nombre":"Cantabria, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":2.24}
+]
+}
+,{"Nombre":"Cantabria, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cantabria", "Codigo":"cantabria"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.42}
+]
+}
+,{"Nombre":"Castilla y León, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":31.09}
+]
+}
+,{"Nombre":"Castilla y León, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":27.84}
+]
+}
+,{"Nombre":"Castilla y León, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":27.66}
+]
+}
+,{"Nombre":"Castilla y León, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":34.25}
+]
+}
+,{"Nombre":"Castilla y León, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":8.39}
+]
+}
+,{"Nombre":"Castilla y León, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":8.16}
+]
+}
+,{"Nombre":"Castilla y León, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":3.7}
+]
+}
+,{"Nombre":"Castilla y León, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":9.74}
+]
+}
+,{"Nombre":"Castilla y León, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.38}
+]
+}
+,{"Nombre":"Castilla y León, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.34}
+]
+}
+,{"Nombre":"Castilla y León, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.87}
+]
+}
+,{"Nombre":"Castilla y León, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla y León", "Codigo":"castillayleon"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.55}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":22.92}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":20.35}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":18.08}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":26.94}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":7.12}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":6.41}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":3.58}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":9.14}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.76}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.37}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":3.85}
+]
+}
+,{"Nombre":"Castilla-La Mancha, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Castilla-La Mancha", "Codigo":"castillalamancha"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.66}
+]
+}
+,{"Nombre":"Cataluña, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":46.53}
+]
+}
+,{"Nombre":"Cataluña, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":43.52}
+]
+}
+,{"Nombre":"Cataluña, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":17.53}
+]
+}
+,{"Nombre":"Cataluña, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":54.62}
+]
+}
+,{"Nombre":"Cataluña, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":22.06}
+]
+}
+,{"Nombre":"Cataluña, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":15.21}
+]
+}
+,{"Nombre":"Cataluña, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":4.18}
+]
+}
+,{"Nombre":"Cataluña, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":26.75}
+]
+}
+,{"Nombre":"Cataluña, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.28}
+]
+}
+,{"Nombre":"Cataluña, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.15}
+]
+}
+,{"Nombre":"Cataluña, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.96}
+]
+}
+,{"Nombre":"Cataluña, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Cataluña", "Codigo":"cataluna"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.35}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":33.68}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":28.01}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":23.56}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":40.61}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":8.37}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":6.82}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":3.21}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":9.82}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.5}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.23}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":2.4}
+]
+}
+,{"Nombre":"Comunitat Valenciana, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Comunitat Valenciana", "Codigo":"comunitatvalenciana"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.64}
+]
+}
+,{"Nombre":"Extremadura, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":22.89}
+]
+}
+,{"Nombre":"Extremadura, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":17.13}
+]
+}
+,{"Nombre":"Extremadura, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":20.21}
+]
+}
+,{"Nombre":"Extremadura, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":26.6}
+]
+}
+,{"Nombre":"Extremadura, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":6.54}
+]
+}
+,{"Nombre":"Extremadura, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":5.73}
+]
+}
+,{"Nombre":"Extremadura, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":5.39}
+]
+}
+,{"Nombre":"Extremadura, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":7.12}
+]
+}
+,{"Nombre":"Extremadura, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.69}
+]
+}
+,{"Nombre":"Extremadura, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.77}
+]
+}
+,{"Nombre":"Extremadura, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":2.96}
+]
+}
+,{"Nombre":"Extremadura, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Extremadura", "Codigo":"extremadura"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.57}
+]
+}
+,{"Nombre":"Galicia, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":30.87}
+]
+}
+,{"Nombre":"Galicia, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":28.39}
+]
+}
+,{"Nombre":"Galicia, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":32.81}
+]
+}
+,{"Nombre":"Galicia, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":31.5}
+]
+}
+,{"Nombre":"Galicia, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":11.34}
+]
+}
+,{"Nombre":"Galicia, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":6.03}
+]
+}
+,{"Nombre":"Galicia, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":6.69}
+]
+}
+,{"Nombre":"Galicia, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":15.13}
+]
+}
+,{"Nombre":"Galicia, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.33}
+]
+}
+,{"Nombre":"Galicia, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.0}
+]
+}
+,{"Nombre":"Galicia, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":2.63}
+]
+}
+,{"Nombre":"Galicia, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Galicia", "Codigo":"galicia"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.38}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":53.34}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":39.16}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":38.17}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":59.81}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":34.15}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":23.94}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":14.21}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":37.69}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.63}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.35}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":2.51}
+]
+}
+,{"Nombre":"Madrid, Comunidad de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Madrid, Comunidad de", "Codigo":"madridcomunidadde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.68}
+]
+}
+,{"Nombre":"Murcia, Región de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":23.92}
+]
+}
+,{"Nombre":"Murcia, Región de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":15.44}
+]
+}
+,{"Nombre":"Murcia, Región de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":14.11}
+]
+}
+,{"Nombre":"Murcia, Región de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":33.09}
+]
+}
+,{"Nombre":"Murcia, Región de, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":4.99}
+]
+}
+,{"Nombre":"Murcia, Región de, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":4.45}
+]
+}
+,{"Nombre":"Murcia, Región de, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":2.94}
+]
+}
+,{"Nombre":"Murcia, Región de, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":5.57}
+]
+}
+,{"Nombre":"Murcia, Región de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.22}
+]
+}
+,{"Nombre":"Murcia, Región de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.06}
+]
+}
+,{"Nombre":"Murcia, Región de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.8}
+]
+}
+,{"Nombre":"Murcia, Región de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Murcia, Región de", "Codigo":"murciaregionde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.33}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":39.11}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":39.38}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":33.99}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":40.58}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":11.35}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":12.5}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":3.78}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":10.99}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.28}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.21}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.39}
+]
+}
+,{"Nombre":"Navarra, Comunidad Foral de, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Navarra, Comunidad Foral de", "Codigo":"navarracomunidadforalde"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.6}
+]
+}
+,{"Nombre":"País Vasco, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":35.01}
+]
+}
+,{"Nombre":"País Vasco, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":30.99}
+]
+}
+,{"Nombre":"País Vasco, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":40.38}
+]
+}
+,{"Nombre":"País Vasco, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":36.99}
+]
+}
+,{"Nombre":"País Vasco, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":14.07}
+]
+}
+,{"Nombre":"País Vasco, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":10.18}
+]
+}
+,{"Nombre":"País Vasco, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":6.08}
+]
+}
+,{"Nombre":"País Vasco, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":18.83}
+]
+}
+,{"Nombre":"País Vasco, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.0}
+]
+}
+,{"Nombre":"País Vasco, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":1.94}
+]
+}
+,{"Nombre":"País Vasco, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.79}
+]
+}
+,{"Nombre":"País Vasco, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"País Vasco", "Codigo":"paisvasco"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.1}
+]
+}
+,{"Nombre":"Rioja, La, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":33.72}
+]
+}
+,{"Nombre":"Rioja, La, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":31.3}
+]
+}
+,{"Nombre":"Rioja, La, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":39.1}
+]
+}
+,{"Nombre":"Rioja, La, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":34.52}
+]
+}
+,{"Nombre":"Rioja, La, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":5.97}
+]
+}
+,{"Nombre":"Rioja, La, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":3.32}
+]
+}
+,{"Nombre":"Rioja, La, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":3.74}
+]
+}
+,{"Nombre":"Rioja, La, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":9.73}
+]
+}
+,{"Nombre":"Rioja, La, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.29}
+]
+}
+,{"Nombre":"Rioja, La, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.4}
+]
+}
+,{"Nombre":"Rioja, La, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.16}
+]
+}
+,{"Nombre":"Rioja, La, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Rioja, La", "Codigo":"riojala"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.61}
+]
+}
+,{"Nombre":"Ceuta, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":21.79}
+]
+}
+,{"Nombre":"Ceuta, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":30.0}
+]
+}
+,{"Nombre":"Ceuta, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":35.9}
+]
+}
+,{"Nombre":"Ceuta, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":15.74}
+]
+}
+,{"Nombre":"Ceuta, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":3.65}
+]
+}
+,{"Nombre":"Ceuta, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":3.42}
+]
+}
+,{"Nombre":"Ceuta, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":1.85}
+]
+}
+,{"Nombre":"Ceuta, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":4.3}
+]
+}
+,{"Nombre":"Ceuta, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":2.43}
+]
+}
+,{"Nombre":"Ceuta, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":1.67}
+]
+}
+,{"Nombre":"Ceuta, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":3.14}
+]
+}
+,{"Nombre":"Ceuta, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Ceuta", "Codigo":"ceuta"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.06}
+]
+}
+,{"Nombre":"Melilla, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":13.39}
+]
+}
+,{"Nombre":"Melilla, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":12.5}
+]
+}
+,{"Nombre":"Melilla, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":21.84}
+]
+}
+,{"Nombre":"Melilla, B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.9 % de empresas que permiten la realización de teletrabajo por parte de sus empleados (0)", "Codigo":"b9deempresasquepermitenlarealizaciondeteletrabajoporpartedesusempleados0"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":10.32}
+]
+}
+,{"Nombre":"Melilla, B.10 % de empleados que teletrabajan regularmente (3), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":3.18}
+]
+}
+,{"Nombre":"Melilla, B.10 % de empleados que teletrabajan regularmente (3), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":1.15}
+]
+}
+,{"Nombre":"Melilla, B.10 % de empleados que teletrabajan regularmente (3), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":5.02}
+]
+}
+,{"Nombre":"Melilla, B.10 % de empleados que teletrabajan regularmente (3), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.10 % de empleados que teletrabajan regularmente (3)", "Codigo":"b10deempleadosqueteletrabajanregularmente3"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":2.8}
+]
+}
+,{"Nombre":"Melilla, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Total Empresas", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Total Empresas", "Codigo":"totalempresas"}
+]
+, "Data":[{"Valor":3.92}
+]
+}
+,{"Nombre":"Melilla, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Industria", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Industria", "Codigo":"industria"}
+]
+, "Data":[{"Valor":2.0}
+]
+}
+,{"Nombre":"Melilla, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Construcción", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Construcción", "Codigo":"construccion"}
+]
+, "Data":[{"Valor":5.0}
+]
+}
+,{"Nombre":"Melilla, B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2), Servicios", "MetaData":[{"T3_Variable":"Comunidades y ciudades autónomas", "Nombre":"Melilla", "Codigo":"melilla"}
+,{"T3_Variable":"Principales variables", "Nombre":"B.11 Número de días en término medio por semana en que los trabajadores teletrabajan (2)", "Codigo":"b11numerodediasenterminomedioporsemanaenquelostrabajadoresteletrabajan2"}
+,{"T3_Variable":"Agrupación de actividad", "Nombre":"Servicios", "Codigo":"servicios"}
+]
+, "Data":[{"Valor":3.31}
+]
+}
+]
