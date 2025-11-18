@@ -159,3 +159,56 @@ salud_mental_canarias <- df_sucio %>%
 
 datatable(salud_mental_canarias)
 ```
+
+## Limpieza de datos
+
+### Limpieza de episodios_depresivos.csv
+
+```{r limpieza_depresion_intensidad, eval=TRUE, message=FALSE, warning=FALSE}
+library(readr)
+library(tidyverse)
+library(DT)
+
+# 1. Cargamos el archivo CON LA CODIFICACIÓN CORRECTA
+depresion_raw <- read_delim("input/data/episodios_depresivos.csv", 
+                            delim = ";", 
+                            escape_double = FALSE, 
+                            trim_ws = TRUE,
+                            locale = locale(encoding = "ISO-8859-1"))
+
+# 2. Limpiamos y calculamos porcentajes
+depresion_intensidad <- depresion_raw %>%
+  # Quitamos el Total Nacional
+  filter(`Comunidades y Ciudades Autónomas` != "Total Nacional") %>%
+  filter(!is.na(`Comunidades y Ciudades Autónomas`)) %>%
+  
+  # Convertimos a número
+  mutate(
+    Valor_Numerico = as.numeric(gsub(",", ".", gsub("\\.", "", Total)))
+  ) %>%
+  
+  # Nos quedamos con "Ambos sexos"
+  filter(Sexo == "Ambos sexos") %>% 
+  
+  # Calculamos el porcentaje
+  group_by(`Comunidades y Ciudades Autónomas`) %>%
+  mutate(
+    Total_Poblacion = Valor_Numerico[`Intensidad depresión` == "TOTAL"],
+    # ¡AQUÍ ESTÁ EL CAMBIO! Redondeamos a 2 decimales
+    Porcentaje = round((Valor_Numerico / Total_Poblacion) * 100, 2)
+  ) %>%
+  ungroup() %>%
+  
+  # ELIMINAR TOTAL: Quitamos la fila que dice TOTAL
+  filter(`Intensidad depresión` != "TOTAL") %>%
+  
+  # Limpiamos nombre de la comunidad
+  mutate(
+    Comunidad = trimws(gsub("^[0-9]+", "", `Comunidades y Ciudades Autónomas`))
+  ) %>%
+  
+  # Seleccionamos columnas finales
+  select(Comunidad, Intensidad = `Intensidad depresión`, Porcentaje)
+
+# Mostramos la tabla
+datatable(depresion_intensidad)
