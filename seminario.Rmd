@@ -111,3 +111,51 @@ datatable(teletrabajo_provincias_raw)
 ```
 
 ### Cargamos el archivo JSON de datos de salud mental en Canarias
+
+```{r carga_json_canarias_manual, eval=TRUE, message=FALSE, warning=FALSE}
+library(rjson)
+library(tidyverse)
+library(DT)
+
+# Este es un proceso un poco diferente a cargar los csvs
+# 1. Cargar el archivo JSON
+json_data <- fromJSON(file = "input/data/saludmentalcanarias.json")
+
+# 2. Extraer los valores numéricos
+valores <- sapply(json_data$data, function(x) x$Valor)
+
+# 3. Extraer los códigos (Isla, Tipo de dato, Estado mental)
+codigos_list <- lapply(json_data$data, function(x) x$dimCodes)
+codigos_matriz <- do.call(rbind, codigos_list)
+
+# 4. Crear un Data Frame inicial 
+df_sucio <- data.frame(
+  Valor = as.numeric(valores),
+  Codigo_Isla = codigos_matriz[, 1],   # Columna 1: Isla
+  Codigo_Tipo = codigos_matriz[, 2],   # Columna 2: Absoluto/Porcentaje
+  Codigo_Estado = codigos_matriz[, 3]  # Columna 3: Estado Mental
+)
+
+# 5.
+# Leyenda de Islas
+leyenda_islas <- data.frame(
+  Codigo_Isla = json_data$categories[[1]]$codes,
+  Nombre_Isla = json_data$categories[[1]]$labels
+)
+
+# Leyenda de Estados de Salud Mental
+leyenda_estado <- data.frame(
+  Codigo_Estado = json_data$categories[[3]]$codes,
+  Descripcion_Estado = json_data$categories[[3]]$labels
+)
+
+# 6. Unir todo para tener la tabla final, usamos un left join
+salud_mental_canarias <- df_sucio %>%
+  left_join(leyenda_islas, by = "Codigo_Isla") %>%
+  left_join(leyenda_estado, by = "Codigo_Estado") %>%
+  # Filtramos para ver porcentajes y el estado "6 o más síntomas" (indicador de problema)
+  filter(Codigo_Tipo == "Porcentaje") %>%
+  select(Nombre_Isla, Descripcion_Estado, Valor)
+
+datatable(salud_mental_canarias)
+```
