@@ -342,3 +342,41 @@ salud_mental_final <- data.frame(
 
 # Mostramos la tabla limpia
 datatable(salud_mental_final)
+```
+
+
+## Relacion entre teletrabajo y salud mental en España por comunidades
+```{r objetivo1_union_grafico, eval=TRUE, message=FALSE, warning=FALSE}
+# 1. Agregamos el porcentaje de depresión por CCAA
+# Sumamos todos los porcentajes, excluyendo "Ninguna" y "No consta"
+depresion_agregada <- depresion_intensidad %>%
+  filter(!Intensidad %in% c("Ninguna", "No consta")) %>%
+  group_by(Comunidad) %>%
+  summarise(
+    Porcentaje_Con_Depresion = sum(Porcentaje, na.rm = TRUE),
+    .groups = 'drop'
+  )
+
+# 2. Unimos los datos de Depresión y Teletrabajo por la columna "Comunidad"
+datos_finales_obj1 <- left_join(depresion_agregada, teletrabajo_ocupados, by = "Comunidad")
+
+# 3. Mostramos la tabla final unida
+datatable(datos_finales_obj1)
+
+```{r objetivo1_grafico, eval=TRUE, message=FALSE, warning=FALSE}
+# Creamos el gráfico de dispersión (scatter plot)
+grafico_obj1 <- ggplot(datos_finales_obj1, aes(x = Porcentaje_Teletrabajo_Ocupados, y = Porcentaje_Con_Depresion)) +
+  geom_point(aes(color = Comunidad), size = 4) + # Puntos coloreados por CCAA
+  geom_smooth(method = "lm", se = TRUE, color = "#1f77b4", linetype = "dashed") + # Línea de tendencia (LM)
+  labs(
+    title = "Relación entre Teletrabajo y Depresión por Comunidad Autónoma",
+    subtitle = "El eje X es el % de trabajadores que teletrabajan. El eje Y es el % de población con depresión.",
+    x = "Población que Teletrabaja (% de Ocupados)",
+    y = "Población con Episodios Depresivos (%)",
+    color = "Comunidad"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+
+# Convertimos a interactivo para ver los nombres de las CCAA al pasar el ratón
+ggplotly(grafico_obj1)
