@@ -30,8 +30,9 @@ Demostrar si es que existe, la relación entre episodios depresivos y el teletra
 
 ## Objetivos Específicos
 
-1. Analizar la relación entre el porcentaje de teletrabajo en las comunidades autónomas de España y los indicadores de salud mental de su población. 
+1. Analizar la relación entre el porcentaje de teletrabajo en las comunidades autónomas de España y los indicadores de salud mental de su población.
 
+2. Evaluar si existen diferencias significativas en la prevalencia de problemas de salud mental entre las Islas Canarias y el conjunto de España en función de la tasa de teletrabajo por provincia o comunidad autónoma.
 
 
 # Metodología y Resultados
@@ -57,7 +58,8 @@ library(gganimate)
 
 ### Cargamos el primer archivo (el CSV)
 
-Ahora, vamos a leer tu primer archivo de datos. Los datos los hemos recopilado de páginas estatales como el Instituto Nacional de Estadística y "datos.gob" así como de la página estatal del Instituto Canario de Estadística (instac). Necesitamos cargar el archivo `episodios depresivos.csv`.
+Ahora, vamos a leer tu primer archivo de datos. Los datos los hemos recopilado de
+páginas estatales como el Instituto Nacional de Estadística y "datos.gob" así como de la página estatal del Instituto Canario de Estadística (instac). Necesitamos cargar el archivo `episodios depresivos.csv`.
 
 
 ```{r carga_csv_depresion, eval=TRUE}
