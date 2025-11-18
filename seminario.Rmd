@@ -78,7 +78,7 @@ depresion_raw <- read_delim(
 datatable(depresion_raw)
 ```
 
-# Cargamos el archivo teletrabajo_por_comunidad.csv
+## Cargamos el archivo teletrabajo_por_comunidad.csv
 
 ```{r carga_csv_teletrabajo, eval=TRUE}
 teletrabajo_comunidad_raw <- read_delim(
@@ -92,7 +92,7 @@ teletrabajo_comunidad_raw <- read_delim(
 datatable(teletrabajo_comunidad_raw)
 ```
 
-# Cargamos el archivo teletrabajoporporprovincias.csv
+## Cargamos el archivo teletrabajoporporprovincias.csv
 ```{r carga_csv_teletrabajoporprovincias, eval=TRUE}
 teletrabajo_provincias_raw <- read_delim(
   "INPUT/DATA/teletrabajoporprovincias.csv",
@@ -104,4 +104,4 @@ teletrabajo_provincias_raw <- read_delim(
 datatable(teletrabajo_provincias_raw)
 ```
 
-# Cargamos el archivo JSON de datos de salud mental en Canarias
+## Cargamos el archivo JSON de datos de salud mental en Canarias
