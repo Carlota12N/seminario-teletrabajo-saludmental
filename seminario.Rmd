@@ -113,9 +113,7 @@ datatable(teletrabajo_provincias_raw)
 ### Cargamos el archivo JSON de datos de salud mental en Canarias
 
 ```{r carga_json_canarias_manual, eval=TRUE, message=FALSE, warning=FALSE}
-library(rjson)
-library(tidyverse)
-library(DT)
+
 
 # Este es un proceso un poco diferente a cargar los csvs
 # 1. Cargar el archivo JSON
@@ -165,9 +163,7 @@ datatable(salud_mental_canarias)
 ### Limpieza de episodios_depresivos.csv
 
 ```{r limpieza_depresion_intensidad, eval=TRUE, message=FALSE, warning=FALSE}
-library(readr)
-library(tidyverse)
-library(DT)
+
 
 # 1. Cargamos el archivo CON LA CODIFICACIÓN CORRECTA
 depresion_raw <- read_delim("input/data/episodios_depresivos.csv", 
@@ -212,3 +208,137 @@ depresion_intensidad <- depresion_raw %>%
 
 # Mostramos la tabla
 datatable(depresion_intensidad)
+```
+
+### Limpieza de teletrabajo_por_comunidad
+
+
+```{r limpieza_teletrabajo_ocupados, eval=TRUE, message=FALSE, warning=FALSE}
+
+
+
+# 2. Limpiamos para tener SOLO una fila por Comunidad (Trabajadores que teletrabajan)
+teletrabajo_ocupados <- teletrabajo_comunidad_raw %>%
+  # Quitamos Total Nacional y vacíos
+  filter(`Comunidades y Ciudades Autónomas` != "Total Nacional") %>%
+  filter(!is.na(`Comunidades y Ciudades Autónomas`)) %>%
+  
+  # FILTRO CLAVE: Nos quedamos SOLO con el grupo de "Personas ocupadas"
+  filter(`Clase de población` == "Personas ocupadas") %>%
+  
+  # Nos quedamos con los que SÍ teletrabajan
+  filter(Teletrabajo == "Personas que han teletrabajado") %>%
+  
+  # Limpiamos el nombre de la Comunidad
+  mutate(
+    Comunidad = trimws(gsub("^[0-9]+", "", `Comunidades y Ciudades Autónomas`))
+  ) %>%
+  
+  # Convertimos el porcentaje a número
+  mutate(
+    Porcentaje_Teletrabajo_Ocupados = as.numeric(gsub(",", ".", Total))
+  ) %>%
+  
+  # Seleccionamos solo Nombre y Porcentaje
+  select(Comunidad, Porcentaje_Teletrabajo_Ocupados)
+
+# Mostramos la tabla (ahora sí, 1 sola fila por CCAA)
+datatable(teletrabajo_ocupados)
+```
+
+
+### Limpieza de teletrabajoporprovincias
+
+```{r limpieza_teletrabajo_personal_provincias, eval=TRUE, message=FALSE, warning=FALSE}
+
+
+# 2. Limpiamos y filtramos
+teletrabajo_personal_canarias <- teletrabajo_provincias_raw%>%
+  # A. FILTRO IMPORTANTE: Nos quedamos solo con el indicador de "PERSONAL TOTAL"
+  filter(indicadores_nombre == "Porcentaje del personal total que es teletrabajador") %>%
+  
+  # B. Quitamos el total de "Canarias" para ver solo las islas
+  filter(islas_nombre != "Canarias") %>%
+  
+  # C. Creamos la columna PROVINCIA (asignando cada isla a la suya)
+  mutate(
+    Provincia = case_when(
+      islas_nombre %in% c("Gran Canaria", "Lanzarote", "Fuerteventura") ~ "Las Palmas",
+      islas_nombre %in% c("Tenerife", "La Palma", "La Gomera", "El Hierro") ~ "S.C. Tenerife",
+      TRUE ~ "Otra"
+    )
+  ) %>%
+  
+  # D. Seleccionamos y renombramos las columnas finales
+  select(
+    Provincia,
+    Isla = islas_nombre, 
+    Porcentaje_Personal_Teletrabajador = teletrabajo_porcentaje_empresas_teletrabajadores_personal_trabajaba_fuera_locales_empresa
+  ) %>%
+  
+  # Ordenamos por provincia
+  arrange(Provincia)
+
+# Mostramos la tabla
+datatable(teletrabajo_personal_canarias)
+```
+
+
+### Limpieza de saludmentalcanaria.json
+```{r limpieza_salud_canarias_final_corregida, eval=TRUE, message=FALSE, warning=FALSE}
+library(rjson)
+library(tidyverse)
+library(DT)
+
+# 1. Cargamos el archivo JSON
+json_data <- fromJSON(file = "input/data/saludmentalcanarias.json")
+
+# 2. Extracción de valores y códigos
+valores <- sapply(json_data$data, function(x) x$Valor)
+codigos_list <- lapply(json_data$data, function(x) x$dimCodes)
+codigos_matriz <- do.call(rbind, codigos_list)
+
+# 3. Descifrar los NOMBRES (Leyendas)
+leyenda_islas <- data.frame(
+  Codigo_Isla = json_data$categories[[1]]$codes,
+  Nombre_Isla = trimws(json_data$categories[[1]]$labels) 
+)
+leyenda_estado <- data.frame(
+  Codigo_Estado = json_data$categories[[3]]$codes,
+  Descripcion_Estado = trimws(json_data$categories[[3]]$labels)
+)
+
+# 4. LIMPIEZA FINAL Y UNIÓN
+salud_mental_final <- data.frame(
+  Valor = as.numeric(valores),
+  Codigo_Isla = codigos_matriz[, 1],
+  Codigo_Tipo = codigos_matriz[, 2],
+  Codigo_Estado = codigos_matriz[, 3]
+) %>%
+  left_join(leyenda_islas, by = "Codigo_Isla") %>%
+  left_join(leyenda_estado, by = "Codigo_Estado") %>%
+  
+  # FILTRO 1: Nos quedamos solo con PORCENTAJES
+  filter(Codigo_Tipo == "Porcentaje") %>%
+  
+  # --- FILTRO CORREGIDO --- 
+  # Eliminamos cualquier etiqueta que contenga un guion "-" (que indica sub-región)
+  # y eliminamos el total "CANARIAS".
+  filter(!str_detect(Nombre_Isla, "-|CANARIAS")) %>%
+  # ------------------------
+  
+  # CREAMOS LA COLUMNA PROVINCIA
+  mutate(
+    Provincia = case_when(
+      Nombre_Isla %in% c("Lanzarote", "Fuerteventura", "Gran Canaria") ~ "Las Palmas",
+      Nombre_Isla %in% c("Tenerife", "La Palma", "La Gomera", "El Hierro") ~ "S.C. Tenerife",
+      TRUE ~ "Otra"
+    )
+  ) %>%
+  
+  # Seleccionamos las columnas finales
+  select(Provincia, Isla = Nombre_Isla, Estado_Mental = Descripcion_Estado, Porcentaje = Valor) %>%
+  arrange(Provincia, Isla)
+
+# Mostramos la tabla limpia
+datatable(salud_mental_final)
