@@ -55,13 +55,14 @@ library(mapSpain)  # Para los mapas
 library(gganimate)
 
 ```
-##Cargamos los archivos
+## Cargamos los archivos
 
 Ahora, vamos a leer los archivos. Los datos los hemos recopilado de páginas estatales como el Instituto Nacional de Estadística y "datos.gob" así como de la página estatal del Instituto Canario de Estadística (instac). 
 
-### Cargamos el primer archivo (el CSV)
+### Cargamos el primer archivo episodios depresivos.csv
 
 Necesitamos cargar el archivo `episodios depresivos.csv`.
+
 ```{r carga_csv_depresion, eval=TRUE}
 # Cargamos el archivo CSV de episodios depresivos
 
@@ -78,7 +79,7 @@ depresion_raw <- read_delim(
 datatable(depresion_raw)
 ```
 
-## Cargamos el archivo teletrabajo_por_comunidad.csv
+### Cargamos el archivo teletrabajo_por_comunidad.csv
 
 Necesitamos cargar el archivo `teletrabajo_por_comunidad.csv`.
 
@@ -94,7 +95,7 @@ teletrabajo_comunidad_raw <- read_delim(
 datatable(teletrabajo_comunidad_raw)
 ```
 
-## Cargamos el archivo teletrabajoporporprovincias.csv
+### Cargamos el archivo teletrabajoporporprovincias.csv
 
 Necesitamos cargar el archivo `teletrabajoporprovincias.csv`.
 
@@ -109,4 +110,4 @@ teletrabajo_provincias_raw <- read_delim(
 datatable(teletrabajo_provincias_raw)
 ```
 
-## Cargamos el archivo JSON de datos de salud mental en Canarias
+### Cargamos el archivo JSON de datos de salud mental en Canarias
