@@ -57,6 +57,7 @@ library(mapSpain)  # Para los mapas
 library(gganimate)
 
 ```
+
 ## Cargamos los archivos
 
 Ahora, vamos a leer los archivos. Los datos los hemos recopilado de páginas estatales como el Instituto Nacional de Estadística y "datos.gob" así como de la página estatal del Instituto Canario de Estadística (instac). 
@@ -257,7 +258,7 @@ grafico_intensidad <- ggplot(depresion_con_sintomas,
 ggplotly(grafico_intensidad)
 ```
 
-
+En este gráfico de barras apñiladas observamos la prevalencia de la depresión en cada comunidad autonoma desglosada por gravedad, las barras mas largas indican un mayor porcentaje de población afectada. 
 
 
 ### Limpieza de teletrabajo_por_comunidad
@@ -295,6 +296,7 @@ teletrabajo_ocupados <- teletrabajo_comunidad_raw %>%
 # Mostramos la tabla (ahora sí, 1 sola fila por CCAA)
 datatable(teletrabajo_ocupados)
 ```
+
 ### Gráfico que muestra porcentajes de teletrabajo de los habitantes de cada comunidad en España
 
 ```{r grafico_teletrabajo_ccaa, eval=TRUE, message=FALSE, warning=FALSE}
@@ -328,6 +330,8 @@ grafico_teletrabajo <- ggplot(teletrabajo_ocupados,
 ggplotly(grafico_teletrabajo)
 
 ```
+
+Este gráfico clasifica a las comunidades autonomas segun su adopción del teletrabajo. Se hace evidentre una brecha digital y laboral: En la parte superior encontramos a Madrid y a Cataluña que lideran debido a su tejido empresarial. En la parte inferior comunidades como Castilla y León donde la economía depende de sectores presenciales como la agricultura. 
 
 ### Limpieza de teletrabajoporprovincias
 
@@ -364,7 +368,8 @@ teletrabajo_personal_canarias <- teletrabajo_provincias_raw%>%
 # Mostramos la tabla
 datatable(teletrabajo_personal_canarias)
 ```
-### Grafica sobre el teletrabajo centrándonos en las Islas canarias
+
+### Gráfica sobre el teletrabajo centrándonos en las Islas canarias
 
 ```{r grafico_teletrabajo_islas, eval=TRUE, message=FALSE, warning=FALSE}
 # 1. Creamos el gráfico de barras horizontal agrupado por Provincia
@@ -402,7 +407,10 @@ grafico_teletrabajo_islas <- ggplot(teletrabajo_personal_canarias,
 ggplotly(grafico_teletrabajo_islas)
 ```
 
+Al poner el foco en Canarias, observamos Gran Canaria y Tenerife con las tasas mas altas de teletrabajo y Lanzarote o Fuerteventura con las mas bajas. Esto refleja la estructura económica de cada isla, las que dependen exclusivamente del turismo tienen muy pocaa capacidad de adaptación al trabajo remoto. 
+
 ### Limpieza de saludmentalcanaria.json
+
 ```{r limpieza_salud_canarias_final_corregida, eval=TRUE, message=FALSE, warning=FALSE}
 
 
@@ -457,6 +465,7 @@ salud_mental_final <- data.frame(
 # Mostramos la tabla limpia
 datatable(salud_mental_final)
 ```
+
 ### Grafica sobre la salud mental centrándonos en las Islas canarias
 
 ```{r grafico_salud_intensidad_canarias, eval=TRUE, message=FALSE, warning=FALSE}
@@ -503,7 +512,10 @@ grafico_salud_intensidad <- ggplot(salud_mental_final,
 ggplotly(grafico_salud_intensidad)
 ```
 
+
+
 ## Relacion entre teletrabajo y salud mental en España por comunidades
+
 ```{r objetivo1_union_grafico, eval=TRUE, message=FALSE, warning=FALSE}
 # 1. Agregamos el porcentaje de depresión por CCAA
 # Sumamos todos los porcentajes, excluyendo "Ninguna" y "No consta"
