@@ -543,6 +543,21 @@ ggplotly(grafico_obj1)
 
 
 ## Relacion entre teletrabajo y salud mental en las Islas Canarias 
+```{r tabla_objetivo2_canarias, eval=TRUE, message=FALSE, warning=FALSE}
+# 1. Preparación de los datos (por si no se ha ejecutado antes)
+# Filtramos el indicador de ALTO RIESGO de salud mental ("6 o más")
+salud_mental_riesgo <- salud_mental_final %>%
+  filter(Estado_Mental == "6 o más") %>%
+  select(Isla, Porcentaje_Riesgo = Porcentaje)
+
+# Unimos con los datos de teletrabajo
+datos_canarias_final <- left_join(teletrabajo_personal_canarias, salud_mental_riesgo, by = "Isla")
+
+# 2. Generación de la Tabla
+datatable(datos_canarias_final, 
+          options = list(pageLength = 10, autoWidth = TRUE),
+          caption = "Tabla: Relación entre el % de Personal Teletrabajador y el % de Población con Alto Riesgo Mental (6 o más síntomas) por Isla.")
+```
 
 ```{r objetivo2_canarias_analisis, eval=TRUE, message=FALSE, warning=FALSE}
 # 1. FILTRO: Obtenemos el indicador de ALTO RIESGO de salud mental por Isla
@@ -575,9 +590,9 @@ grafico_obj2 <- ggplot(datos_canarias_final, aes(x = Porcentaje_Personal_Teletra
 ggplotly(grafico_obj2, tooltip = "text")
 ```
 
-##Conclusiones 
+## Conclusiones 
 
-###Conclusiones de los objetivos específicos
+### Conclusiones de los objetivos específicos
 
 **1. Comparar los numeros del teletrabajo y la depresión en las distintas comunidades autónomas para ver que tipo de tendencia siguen.¨**
 
@@ -590,5 +605,5 @@ Aun que la tendencia nacional es que "a mas teletrabajo mas depresión" comunida
 
  Mientras que en Madrid el estres puede venir de la hiperconexión y el teletrabajo en castilla y león el riesgo para la salud mental proviene de otros factores, lo que genera cifras altas de depresión sin necesidad de teletrabajo. 
 
-**3. ¿Qué pasa en un lugar específico? Estudiamos de cerca las isalas canarias para ver si la gente que teletrabaja tiene mas riesgo mental. **
+**3. ¿Qué pasa en un lugar específico? Estudiamos de cerca las islas canarias para ver si la gente que teletrabaja tiene mas riesgo mental. **
 
