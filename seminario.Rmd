@@ -210,6 +210,54 @@ depresion_intensidad <- depresion_raw %>%
 datatable(depresion_intensidad)
 ```
 
+### Gráfico que muestra los episodios depresivos de los habitantes de cada comunidad en España
+
+```{r grafico_intensidad_depresion, eval=TRUE, message=FALSE, warning=FALSE}
+# 1. Filtramos los datos para excluir la categoría "Ninguna" y "No consta"
+depresion_con_sintomas <- depresion_intensidad %>%
+  filter(!Intensidad %in% c("Ninguna", "No consta")) %>%
+  
+  # Ordenamos las comunidades por el porcentaje total de depresión para un gráfico limpio
+  group_by(Comunidad) %>%
+  mutate(Total_Depresion = sum(Porcentaje)) %>%
+  ungroup() %>%
+  arrange(desc(Total_Depresion)) %>%
+  
+  # Convertimos la comunidad a factor para mantener el orden en el gráfico
+  mutate(Comunidad = factor(Comunidad, levels = unique(Comunidad)))
+
+# 2. Creamos el gráfico de barras agrupadas
+grafico_intensidad <- ggplot(depresion_con_sintomas, 
+                             aes(x = Comunidad, y = Porcentaje, fill = Intensidad)) +
+  
+  # Usamos barras con posición dodged (agrupadas lado a lado)
+  geom_bar(stat = "identity", position = position_dodge(width = 0.8), width = 0.7) +
+  
+  # Personalizamos colores
+  scale_fill_brewer(palette = "Reds", direction = -1, 
+                    name = "Intensidad",
+                    # Aseguramos que la leyenda vaya en orden de severidad
+                    breaks = c("Grave", "Moderadamente grave", "Moderada", "Leve")) +
+  
+  # Giramos las coordenadas para que los nombres de las CCAA sean legibles
+  coord_flip() +
+  
+  labs(
+    title = "Prevalencia y Severidad de Episodios Depresivos por CCAA",
+    subtitle = "El porcentaje es sobre el total de la población de cada Comunidad.",
+    x = "", # Dejamos el eje X (Comunidades) vacío tras el flip
+    y = "Porcentaje de Población (%)"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+
+# Hacemos el gráfico interactivo
+ggplotly(grafico_intensidad)
+```
+
+
+
+
 ### Limpieza de teletrabajo_por_comunidad
 
 
@@ -245,7 +293,39 @@ teletrabajo_ocupados <- teletrabajo_comunidad_raw %>%
 # Mostramos la tabla (ahora sí, 1 sola fila por CCAA)
 datatable(teletrabajo_ocupados)
 ```
+### Gráfico que muestra porcentajes de teletrabajo de los habitantes de cada comunidad en España
 
+```{r grafico_teletrabajo_ccaa, eval=TRUE, message=FALSE, warning=FALSE}
+# 1. Creamos el gráfico de barras horizontal
+grafico_teletrabajo <- ggplot(teletrabajo_ocupados, 
+                              aes(x = Porcentaje_Teletrabajo_Ocupados, 
+                                  # Ordenamos las CCAA de menor a mayor porcentaje
+                                  y = reorder(Comunidad, Porcentaje_Teletrabajo_Ocupados))) +
+  
+  geom_col(aes(fill = Porcentaje_Teletrabajo_Ocupados), width = 0.8) +
+  
+  # Añadimos etiquetas con el porcentaje exacto al final de cada barra
+  geom_text(aes(label = paste0(Porcentaje_Teletrabajo_Ocupados, "%")), 
+            hjust = -0.1, size = 3) + 
+  
+  scale_fill_gradient(low = "#b2e2e2", high = "#225ea8", name = "Porcentaje") +
+  
+  labs(
+    title = "Penetración del Teletrabajo en la Población Ocupada por CCAA",
+    subtitle = "El porcentaje es sobre el total de personas con empleo.",
+    x = "Porcentaje de Teletrabajadores (%)",
+    y = "" # Dejamos el eje Y vacío para que solo se vea el nombre de la CCAA
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = "none", # La leyenda ya no es necesaria
+    panel.grid.major.y = element_blank() # Quitamos las líneas horizontales
+  )
+
+# Hacemos el gráfico interactivo
+ggplotly(grafico_teletrabajo)
+
+```
 
 ### Limpieza de teletrabajoporprovincias
 
@@ -282,16 +362,48 @@ teletrabajo_personal_canarias <- teletrabajo_provincias_raw%>%
 # Mostramos la tabla
 datatable(teletrabajo_personal_canarias)
 ```
+### Grafica sobre el teletrabajo centrándonos en las Islas canarias
 
+```{r grafico_teletrabajo_islas, eval=TRUE, message=FALSE, warning=FALSE}
+# 1. Creamos el gráfico de barras horizontal agrupado por Provincia
+grafico_teletrabajo_islas <- ggplot(teletrabajo_personal_canarias, 
+                              aes(x = Porcentaje_Personal_Teletrabajador, 
+                                  # Ordenamos las islas de menor a mayor teletrabajo dentro de cada provincia
+                                  y = reorder(Isla, Porcentaje_Personal_Teletrabajador))) +
+  
+  # Usamos el color de la barra para diferenciar la Provincia
+  geom_col(aes(fill = Provincia), width = 0.7) +
+  
+  # Añadimos etiquetas con el porcentaje exacto
+  geom_text(aes(label = paste0(Porcentaje_Personal_Teletrabajador, "%")), 
+            hjust = -0.1, size = 3) + 
+  
+  # Separamos el gráfico en dos paneles (facetas) por Provincia
+  facet_wrap(~ Provincia, scales = "free_y", ncol = 1) + # scales="free_y" ajusta las etiquetas de las Islas a cada panel
+  
+  scale_fill_manual(values = c("Las Palmas" = "#1b9e77", "S.C. Tenerife" = "#d95f02")) +
+  
+  labs(
+    title = "Porcentaje de Personal Teletrabajador en las Islas Canarias",
+    subtitle = "Comparación por Isla y Provincia.",
+    x = "Porcentaje de Personal Teletrabajador (%)",
+    y = ""
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = "none",
+    panel.grid.major.y = element_blank(),
+    strip.text = element_text(face = "bold") # Hace que el título de la provincia sea negrita
+  )
+
+# Hacemos el gráfico interactivo
+ggplotly(grafico_teletrabajo_islas)
+```
 
 ### Limpieza de saludmentalcanaria.json
 ```{r limpieza_salud_canarias_final_corregida, eval=TRUE, message=FALSE, warning=FALSE}
-library(rjson)
-library(tidyverse)
-library(DT)
 
-# 1. Cargamos el archivo JSON
-json_data <- fromJSON(file = "input/data/saludmentalcanarias.json")
+
 
 # 2. Extracción de valores y códigos
 valores <- sapply(json_data$data, function(x) x$Valor)
@@ -343,7 +455,51 @@ salud_mental_final <- data.frame(
 # Mostramos la tabla limpia
 datatable(salud_mental_final)
 ```
+### Grafica sobre la salud mental centrándonos en las Islas canarias
 
+```{r grafico_salud_intensidad_canarias, eval=TRUE, message=FALSE, warning=FALSE}
+# 1. ORDENACIÓN: Ordenamos las Islas por su porcentaje de riesgo más alto para un gráfico limpio
+salud_mental_ordenada <- salud_mental_final %>%
+  filter(Estado_Mental == "6 o más") %>%
+  arrange(desc(Porcentaje)) %>%
+  pull(Isla)
+
+# 2. Creamos el gráfico de barras apiladas
+grafico_salud_intensidad <- ggplot(salud_mental_final, 
+                                     aes(x = Porcentaje, 
+                                         # Usamos el factor ordenado para la Islas
+                                         y = factor(Isla, levels = rev(salud_mental_ordenada)), 
+                                         # Rellenamos con el estado mental (la pila)
+                                         fill = Estado_Mental)) +
+  
+  geom_bar(stat = "identity", position = "stack", width = 0.8) +
+  
+  # Usamos facet_wrap para separar el análisis por Provincia
+  facet_wrap(~ Provincia, scales = "free_y", ncol = 1) +
+  
+  # Colores: Usamos una escala que va de azul/verde (saludable) a rojo (riesgo)
+  scale_fill_manual(
+    name = "Síntomas de Mala Salud Mental",
+    values = c("0" = "#a1d99b", "1" = "#edf8e9", "2" = "#fed98e", "3" = "#fe9929", "4" = "#d95f0e", "5" = "#993404", "6 o más" = "#7f0000"),
+    breaks = c("0", "1", "2", "3", "4", "5", "6 o más", "No consta") # Ordenamos la leyenda
+  ) +
+  
+  labs(
+    title = "Perfiles de Salud Mental en las Islas Canarias",
+    subtitle = "Distribución del porcentaje de la población según el número de síntomas (0 a 6 o más).",
+    x = "Porcentaje de Población (%)",
+    y = "Isla"
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = "bottom",
+    panel.grid.major.y = element_blank(),
+    strip.text = element_text(face = "bold")
+  )
+
+# Hacemos el gráfico interactivo
+ggplotly(grafico_salud_intensidad)
+```
 
 ## Relacion entre teletrabajo y salud mental en España por comunidades
 ```{r objetivo1_union_grafico, eval=TRUE, message=FALSE, warning=FALSE}
