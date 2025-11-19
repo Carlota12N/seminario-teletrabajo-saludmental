@@ -362,6 +362,7 @@ datos_finales_obj1 <- left_join(depresion_agregada, teletrabajo_ocupados, by = "
 
 # 3. Mostramos la tabla final unida
 datatable(datos_finales_obj1)
+```
 
 ```{r objetivo1_grafico, eval=TRUE, message=FALSE, warning=FALSE}
 # Creamos el gráfico de dispersión (scatter plot)
@@ -381,3 +382,36 @@ grafico_obj1 <- ggplot(datos_finales_obj1, aes(x = Porcentaje_Teletrabajo_Ocupad
 # Convertimos a interactivo para ver los nombres de las CCAA al pasar el ratón
 ggplotly(grafico_obj1)
 ```
+
+
+## Relacion entre teletrabajo y salud mental en las Islas Canarias 
+
+```{r objetivo2_canarias_analisis, eval=TRUE, message=FALSE, warning=FALSE}
+# 1. FILTRO: Obtenemos el indicador de ALTO RIESGO de salud mental por Isla
+salud_mental_riesgo <- salud_mental_final %>%
+  filter(Estado_Mental == "6 o más") %>%
+  select(Isla, Porcentaje_Riesgo = Porcentaje) # Renombramos la columna Valor a Porcentaje_Riesgo
+
+# 2. UNIÓN: Cruzamos el riesgo de salud mental con el porcentaje de teletrabajo
+datos_canarias_final <- left_join(teletrabajo_personal_canarias, salud_mental_riesgo, by = "Isla")
+
+# 3. VISUALIZACIÓN: Scatter plot para ver la correlación en ambas provincias
+
+grafico_obj2 <- ggplot(datos_canarias_final, aes(x = Porcentaje_Personal_Teletrabajador, y = Porcentaje_Riesgo)) +
+  geom_point(aes(color = Isla, text = paste("Isla:", Isla, "<br>Riesgo:", Porcentaje_Riesgo, "%")), size = 5) + # Usamos text para el tooltip de plotly
+  geom_smooth(method = "lm", se = FALSE, color = "gray", linetype = "dotted") +
+  
+  # Usamos facet_wrap para separar el análisis por provincia
+  facet_wrap(~ Provincia, scales = "free") +
+  
+  labs(
+    title = "Teletrabajo vs. Riesgo de Problemas de Salud Mental en Canarias",
+    subtitle = "El eje Y es el porcentaje de población con 6 o más síntomas (alto riesgo).",
+    x = "Personal Teletrabajador (%)",
+    y = "Población con Alto Riesgo Mental (%)"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+# Convertimos a interactivo para ver los detalles
+ggplotly(grafico_obj2, tooltip = "text")
