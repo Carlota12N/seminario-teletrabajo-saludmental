@@ -415,3 +415,4 @@ grafico_obj2 <- ggplot(datos_canarias_final, aes(x = Porcentaje_Personal_Teletra
 
 # Convertimos a interactivo para ver los detalles
 ggplotly(grafico_obj2, tooltip = "text")
+```
