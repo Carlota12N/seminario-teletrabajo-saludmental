@@ -553,6 +553,8 @@ grafico_obj1 <- ggplot(datos_finales_obj1, aes(x = Porcentaje_Teletrabajo_Ocupad
 ggplotly(grafico_obj1)
 ```
 
+Este diagrama de dispersión es la clave del objetivo 1. La línea de tendencia nos confirma que existe una correlación positiva. A nivel nacional las comunidades con más teletrabajo tienden a tener mayores tasas de depresión. 
+Sin embargo observamos excepciones. Esto valida nuestro objetivo 2, en la "España vaciada" la depresión se dispara. 
 
 ## Relacion entre teletrabajo y salud mental en las Islas Canarias 
 ```{r tabla_objetivo2_canarias, eval=TRUE, message=FALSE, warning=FALSE}
@@ -601,6 +603,9 @@ grafico_obj2 <- ggplot(datos_canarias_final, aes(x = Porcentaje_Personal_Teletra
 # Convertimos a interactivo para ver los detalles
 ggplotly(grafico_obj2, tooltip = "text")
 ```
+
+Este último gráfico nos muestra el hallazgo más importante: la inversión de la tendencia nacional. En Canarias el teletrabajo actúa como un factor protector, quién puede teletrabajar, suele tener un empleo más estable lo que se traduce en una mejor salud mental frente a la incertidumbre del sector turístico presencial. 
+
 
 ## Conclusiones 
 
