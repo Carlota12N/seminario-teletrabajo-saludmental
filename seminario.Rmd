@@ -512,7 +512,7 @@ grafico_salud_intensidad <- ggplot(salud_mental_final,
 ggplotly(grafico_salud_intensidad)
 ```
 
-
+Este gráfico es una muestra completa de la salud mental en el archipiélago. LLama la atención como las islas varían en la proporción de colores ocuros, que son los que indican un mayor número de síntomas de mala salud mental.
 
 ## Relacion entre teletrabajo y salud mental en España por comunidades
 
