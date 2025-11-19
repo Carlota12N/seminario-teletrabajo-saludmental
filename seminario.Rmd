@@ -616,5 +616,13 @@ Esto puede corresponderse a que las islas con menos teletrabajo como hemos dicho
 Los datos de El Hierro y Gran Canaria nos revelan el matiz crucial en el archipiélago, el teletrabajo parece actuar como un factor protector asociado a la inestabilidad laboral. En estas islas tener un trabajo que permita teletrabajar es un privilegio que portege tu salud mental frente a la incertidumbre económica que nos puede provocar el turismo.
 
 
+## Conclusión General
 
+El objetivo general era ver si existe una conexión entre el teletrabajo y la salud mental en la población española.
+
+Los resultados demuestran una correlación positiva entre la penetración del teletrabajo entre las comunidades autónomas y la prevalencia de episodios depresivos. Esta relación sugiere que los entornos con una estructura laboral que facilita el teletrabajo (típicamente grandes ciudades) son también aquellos donde la población reporta grandes problemas de salud mental. 
+
+Sin embargo esta correlación no implica causalidad, ambas variables pueden ser impulsadas por un tercer factor, el tipo de actividad económica, envejecimiento de la población o dispersión rural. 
+
+El teletrabajo no es la causa directa de la depresión por si mismo, más bien actúa como un indicador de la estructura económica de cada región. En la Península señala zonas saturadas y estresadas, mientras que en territorios insulares y fragmentados, su presencia es sinónimo de calidad y seguridad laboral protegiendo la salud mental de teletrabajos. 
 
