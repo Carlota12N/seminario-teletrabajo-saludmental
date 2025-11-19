@@ -380,3 +380,4 @@ grafico_obj1 <- ggplot(datos_finales_obj1, aes(x = Porcentaje_Teletrabajo_Ocupad
 
 # Convertimos a interactivo para ver los nombres de las CCAA al pasar el ratón
 ggplotly(grafico_obj1)
+```
