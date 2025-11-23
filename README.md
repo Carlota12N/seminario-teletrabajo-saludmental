@@ -1,5 +1,6 @@
 <img src='./INPUT/IMAGES/descarga.jpeg' align="right" height="120" />
-# seminario-teletrabajo-saludmental
+
+# Seminario-teletrabajo-saludmental
 Seminario para la asignatura "Fuentes de Datos Biomédicas y Web Semántica" (UBU) sobre la relación entre teletrabajo y salud mental.
 
 # Introducción
@@ -80,3 +81,6 @@ Inicio ISTAC - Gobierno de Canarias. (s. f.). https://www.gobiernodecanarias.or
 INE - Instituto Nacional de Estadística. (s. f.). INE. Instituto Nacional de Estadística. INE. https://www.ine.es/
 
 Datos abiertos del Gobierno de España | datos.gob.es. (s. f.). Datos Abiertos del Gobierno de España | datos.gob.es. https://datos.gob.es/es/
+
+***
+Autores: Paula Quirós Mastache, Carlota García Fernández y Alma Caneiro Fernández
