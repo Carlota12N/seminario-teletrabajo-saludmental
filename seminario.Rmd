@@ -15,6 +15,10 @@ text-align: justify}
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+* [Repositorio de GitHub](https://github.com/Carlota12N/seminario-teletrabajo-saludmental.git) 
+
+
 # Introducción
 
 La relación entre la salud mental y el empleo, especialmente en los trabajos que implican muchas horas frente a un ordenador, ha cobrado una importancia creciente en los últimos años debido al aumento de episodios depresivos y estrés laboral entre la población trabajadora. 
