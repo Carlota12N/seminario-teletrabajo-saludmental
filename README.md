@@ -50,7 +50,7 @@ Aun que la tendencia nacional es que "a mas teletrabajo mas depresión" comunida
 
 Mientras que en Madrid el estrés puede venir de la hiperconexión y el teletrabajo en Castilla y León el riesgo para la salud mental proviene de otros factores, lo que genera cifras altas de depresión sin necesidad de teletrabajo. 
 
-**3. ¿Qué pasa en un lugar específico? Estudiamos de cerca las islas canarias para ver si la gente que teletrabaja tiene mas riesgo mental. **
+**3. ¿Qué pasa en un lugar específico? Estudiamos de cerca las islas canarias para ver si la gente que teletrabaja tiene mas riesgo mental.**
 
 Al contrario de lo que ocurre a nivel nacional, en las Islas Canarias los datos muestran una tendencia inversa, podemos destacar el caso de la isla de Lanzarote, esta isla presenta una baja tasa de teletrabajo y un alto índice en el riesgo de salud mental.
 
