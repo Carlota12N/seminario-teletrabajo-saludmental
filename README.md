@@ -15,7 +15,7 @@ Para ello, combinamos datos estatales de prevalencia de depresión por comunidad
 #  Objetivos
 
 ## Objetivo General
-**Demostrar si es que existe, la relación entre episodios depresivos y el teletrabajo, en la actualidad. **
+Demostrar si es que existe, la relación entre episodios depresivos y el teletrabajo, en la actualidad. 
 
 
 ## Objetivos Específicos
@@ -39,7 +39,7 @@ Para ello, combinamos datos estatales de prevalencia de depresión por comunidad
 
 ### Conclusiones de los objetivos específicos
 
-**1. Comparar los numeros del teletrabajo y la depresión en las distintas comunidades autónomas para ver que tipo de tendencia siguen.¨**
+**1. Comparar los numeros del teletrabajo y la depresión en las distintas comunidades autónomas para ver que tipo de tendencia siguen.**
 
 Hemos observado una clara tendencia ascendente confirmando que las comunidades autónomas con mayor porcentaje de teletrabajadores como por ejemplo Madrid o Cataluña son tambien las que tienen el mayor porcentaje de poblacion con depresión, en cambio las comunidades con menos implantación de teletrabajo (Castilla La Mancha, Cantabria) se situan consistentemente en los niveles mas bajos de depresión.
 Destacamos que hay comunidades que se salen de lo establecido como Castilla y León que con un bajo porcentaje de pobalción teletrabajadora muestra el mayor nivel de población con niveles depresivos. 
