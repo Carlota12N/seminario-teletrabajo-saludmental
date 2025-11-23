@@ -12,6 +12,10 @@ body {
 text-align: justify}
 </style>
 
+<body style="background-color: #ffe3e8;">
+  
+</body>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
