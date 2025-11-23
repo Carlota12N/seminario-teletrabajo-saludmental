@@ -67,7 +67,7 @@ Los datos los hemos obtenido de fuentes oficiales como el Instituto Nacional de 
 
 ### Cargamos el primer archivo episodios depresivos.csv
 
-Iniamos cargando el archivo:`episodios depresivos.csv`.
+Iniciamos cargando el archivo:`episodios depresivos.csv`.
 
 ```{r carga_csv_depresion, eval=TRUE}
 # Cargamos el archivo CSV de episodios depresivos
@@ -118,23 +118,19 @@ datatable(teletrabajo_provincias_raw)
 
 ### Cargamos el archivo JSON de datos de salud mental en Canarias
 
-Finalmente, cargamos el archivo: `salud_mental_canarias`
+Finalmente, cargamos el archivo: `salud_mental_canarias.json`
 
 ```{r carga_json_canarias_manual, eval=TRUE, message=FALSE, warning=FALSE}
 
 
-# Este es un proceso un poco diferente a cargar los csvs
-# 1. Cargar el archivo JSON
+# Cargar el archivo JSON
 json_data <- fromJSON(file = "input/data/saludmentalcanarias.json")
 
-# 2. Extraer los valores numéricos
 valores <- sapply(json_data$data, function(x) x$Valor)
 
-# 3. Extraer los códigos (Isla, Tipo de dato, Estado mental)
 codigos_list <- lapply(json_data$data, function(x) x$dimCodes)
 codigos_matriz <- do.call(rbind, codigos_list)
 
-# 4. Crear un Data Frame inicial 
 df_sucio <- data.frame(
   Valor = as.numeric(valores),
   Codigo_Isla = codigos_matriz[, 1],   # Columna 1: Isla
@@ -142,7 +138,7 @@ df_sucio <- data.frame(
   Codigo_Estado = codigos_matriz[, 3]  # Columna 3: Estado Mental
 )
 
-# 5.
+
 # Leyenda de Islas
 leyenda_islas <- data.frame(
   Codigo_Isla = json_data$categories[[1]]$codes,
@@ -155,7 +151,7 @@ leyenda_estado <- data.frame(
   Descripcion_Estado = json_data$categories[[3]]$labels
 )
 
-# 6. Unir todo para tener la tabla final, usamos un left join
+# Unir todo para tener la tabla final, usamos un left join
 salud_mental_canarias <- df_sucio %>%
   left_join(leyenda_islas, by = "Codigo_Isla") %>%
   left_join(leyenda_estado, by = "Codigo_Estado") %>%
@@ -172,15 +168,7 @@ datatable(salud_mental_canarias)
 
 ```{r limpieza_depresion_intensidad, eval=TRUE, message=FALSE, warning=FALSE}
 
-
-# 1. Cargamos el archivo CON LA CODIFICACIÓN CORRECTA
-depresion_raw <- read_delim("input/data/episodios_depresivos.csv", 
-                            delim = ";", 
-                            escape_double = FALSE, 
-                            trim_ws = TRUE,
-                            locale = locale(encoding = "ISO-8859-1"))
-
-# 2. Limpiamos y calculamos porcentajes
+#Limpiamos y filtramos 
 depresion_intensidad <- depresion_raw %>%
   # Quitamos el Total Nacional
   filter(`Comunidades y Ciudades Autónomas` != "Total Nacional") %>%
@@ -198,12 +186,12 @@ depresion_intensidad <- depresion_raw %>%
   group_by(`Comunidades y Ciudades Autónomas`) %>%
   mutate(
     Total_Poblacion = Valor_Numerico[`Intensidad depresión` == "TOTAL"],
-    # ¡AQUÍ ESTÁ EL CAMBIO! Redondeamos a 2 decimales
+    # Redondeamos a 2 decimales
     Porcentaje = round((Valor_Numerico / Total_Poblacion) * 100, 2)
   ) %>%
   ungroup() %>%
   
-  # ELIMINAR TOTAL: Quitamos la fila que dice TOTAL
+  # ELIMINAR TOTAL: 
   filter(`Intensidad depresión` != "TOTAL") %>%
   
   # Limpiamos nombre de la comunidad
@@ -221,7 +209,7 @@ datatable(depresion_intensidad)
 ### Gráfico que muestra los episodios depresivos de los habitantes de cada comunidad en España
 
 ```{r grafico_intensidad_depresion, eval=TRUE, message=FALSE, warning=FALSE}
-# 1. Filtramos los datos para excluir la categoría "Ninguna" y "No consta"
+# Filtramos los datos para excluir la categoría "Ninguna" y "No consta"
 depresion_con_sintomas <- depresion_intensidad %>%
   filter(!Intensidad %in% c("Ninguna", "No consta")) %>%
   
@@ -234,36 +222,27 @@ depresion_con_sintomas <- depresion_intensidad %>%
   # Convertimos la comunidad a factor para mantener el orden en el gráfico
   mutate(Comunidad = factor(Comunidad, levels = unique(Comunidad)))
 
-# 2. Creamos el gráfico de barras agrupadas
+#Creamos el gráfico de barras agrupadas
 grafico_intensidad <- ggplot(depresion_con_sintomas, 
                              aes(x = Comunidad, y = Porcentaje, fill = Intensidad)) +
-  
-  # Usamos barras con posición dodged (agrupadas lado a lado)
   geom_bar(stat = "identity", position = position_dodge(width = 0.8), width = 0.7) +
-  
-  # Personalizamos colores
   scale_fill_brewer(palette = "Reds", direction = -1, 
                     name = "Intensidad",
-                    # Aseguramos que la leyenda vaya en orden de severidad
                     breaks = c("Grave", "Moderadamente grave", "Moderada", "Leve")) +
-  
-  # Giramos las coordenadas para que los nombres de las CCAA sean legibles
   coord_flip() +
-  
   labs(
     title = "Prevalencia y Severidad de Episodios Depresivos por CCAA",
     subtitle = "El porcentaje es sobre el total de la población de cada Comunidad.",
-    x = "", # Dejamos el eje X (Comunidades) vacío tras el flip
+    x = "",
     y = "Porcentaje de Población (%)"
   ) +
   theme_minimal() +
   theme(legend.position = "bottom")
 
-# Hacemos el gráfico interactivo
 ggplotly(grafico_intensidad)
 ```
 
-En este gráfico de barras apñiladas observamos la prevalencia de la depresión en cada comunidad autonoma desglosada por gravedad, las barras mas largas indican un mayor porcentaje de población afectada. 
+En este gráfico de barras apiladas observamos la prevalencia de la depresión en cada comunidad autónoma desglosada por gravedad, las barras mas largas indican un mayor porcentaje de población afectada. 
 
 
 ### Limpieza de teletrabajo_por_comunidad
@@ -271,18 +250,16 @@ En este gráfico de barras apñiladas observamos la prevalencia de la depresión
 
 ```{r limpieza_teletrabajo_ocupados, eval=TRUE, message=FALSE, warning=FALSE}
 
-
-
-# 2. Limpiamos para tener SOLO una fila por Comunidad (Trabajadores que teletrabajan)
+# Limpiamos para tener SOLO una fila por Comunidad (Trabajadores que teletrabajan)
 teletrabajo_ocupados <- teletrabajo_comunidad_raw %>%
   # Quitamos Total Nacional y vacíos
   filter(`Comunidades y Ciudades Autónomas` != "Total Nacional") %>%
   filter(!is.na(`Comunidades y Ciudades Autónomas`)) %>%
   
-  # FILTRO CLAVE: Nos quedamos SOLO con el grupo de "Personas ocupadas"
+  # Nos quedamos SOLO con el grupo de "Personas ocupadas"
   filter(`Clase de población` == "Personas ocupadas") %>%
   
-  # Nos quedamos con los que SÍ teletrabajan
+  # Nos quedamos con los que sí teletrabajan
   filter(Teletrabajo == "Personas que han teletrabajado") %>%
   
   # Limpiamos el nombre de la Comunidad
@@ -298,14 +275,14 @@ teletrabajo_ocupados <- teletrabajo_comunidad_raw %>%
   # Seleccionamos solo Nombre y Porcentaje
   select(Comunidad, Porcentaje_Teletrabajo_Ocupados)
 
-# Mostramos la tabla (ahora sí, 1 sola fila por CCAA)
+# Mostramos la tabla
 datatable(teletrabajo_ocupados)
 ```
 
 ### Gráfico que muestra porcentajes de teletrabajo de los habitantes de cada comunidad en España
 
 ```{r grafico_teletrabajo_ccaa, eval=TRUE, message=FALSE, warning=FALSE}
-# 1. Creamos el gráfico de barras horizontal
+# Creamos el gráfico de barras horizontal
 grafico_teletrabajo <- ggplot(teletrabajo_ocupados, 
                               aes(x = Porcentaje_Teletrabajo_Ocupados, 
                                   # Ordenamos las CCAA de menor a mayor porcentaje
@@ -323,35 +300,35 @@ grafico_teletrabajo <- ggplot(teletrabajo_ocupados,
     title = "Penetración del Teletrabajo en la Población Ocupada por CCAA",
     subtitle = "El porcentaje es sobre el total de personas con empleo.",
     x = "Porcentaje de Teletrabajadores (%)",
-    y = "" # Dejamos el eje Y vacío para que solo se vea el nombre de la CCAA
+    y = "" 
   ) +
   theme_minimal() +
   theme(
-    legend.position = "none", # La leyenda ya no es necesaria
+    legend.position = "none", 
     panel.grid.major.y = element_blank() # Quitamos las líneas horizontales
   )
 
-# Hacemos el gráfico interactivo
+# Hacemos el gráfico
 ggplotly(grafico_teletrabajo)
 
 ```
 
-Este gráfico clasifica a las comunidades autonomas segun su adopción del teletrabajo. Se hace evidentre una brecha digital y laboral: En la parte superior encontramos a Madrid y a Cataluña que lideran debido a su tejido empresarial. En la parte inferior comunidades como Castilla y León donde la economía depende de sectores presenciales como la agricultura. 
+Este gráfico clasifica a las comunidades autónomas según su adopción del teletrabajo. Se hace evidente una brecha digital y laboral. En la parte superior encontramos a Madrid y a Cataluña que lideran debido a su tejido empresarial. En la parte inferior comunidades como Castilla y León donde la economía depende de sectores presenciales como la agricultura. 
 
 ### Limpieza de teletrabajoporprovincias
 
 ```{r limpieza_teletrabajo_personal_provincias, eval=TRUE, message=FALSE, warning=FALSE}
 
 
-# 2. Limpiamos y filtramos
+# Limpiamos y filtramos
 teletrabajo_personal_canarias <- teletrabajo_provincias_raw%>%
-  # A. FILTRO IMPORTANTE: Nos quedamos solo con el indicador de "PERSONAL TOTAL"
+  # Nos quedamos solo con el indicador de "PERSONAL TOTAL"
   filter(indicadores_nombre == "Porcentaje del personal total que es teletrabajador") %>%
   
-  # B. Quitamos el total de "Canarias" para ver solo las islas
+  # Quitamos el total de "Canarias" para ver solo las islas
   filter(islas_nombre != "Canarias") %>%
   
-  # C. Creamos la columna PROVINCIA (asignando cada isla a la suya)
+  # Creamos la columna PROVINCIA (asignando cada isla a la suya)
   mutate(
     Provincia = case_when(
       islas_nombre %in% c("Gran Canaria", "Lanzarote", "Fuerteventura") ~ "Las Palmas",
@@ -360,7 +337,7 @@ teletrabajo_personal_canarias <- teletrabajo_provincias_raw%>%
     )
   ) %>%
   
-  # D. Seleccionamos y renombramos las columnas finales
+  # Seleccionamos y renombramos las columnas finales
   select(
     Provincia,
     Isla = islas_nombre, 
@@ -377,7 +354,7 @@ datatable(teletrabajo_personal_canarias)
 ### Gráfica sobre el teletrabajo centrándonos en las Islas canarias
 
 ```{r grafico_teletrabajo_islas, eval=TRUE, message=FALSE, warning=FALSE}
-# 1. Creamos el gráfico de barras horizontal agrupado por Provincia
+# Creamos el gráfico de barras horizontal agrupado por Provincia
 grafico_teletrabajo_islas <- ggplot(teletrabajo_personal_canarias, 
                               aes(x = Porcentaje_Personal_Teletrabajador, 
                                   # Ordenamos las islas de menor a mayor teletrabajo dentro de cada provincia
@@ -390,8 +367,8 @@ grafico_teletrabajo_islas <- ggplot(teletrabajo_personal_canarias,
   geom_text(aes(label = paste0(Porcentaje_Personal_Teletrabajador, "%")), 
             hjust = -0.1, size = 3) + 
   
-  # Separamos el gráfico en dos paneles (facetas) por Provincia
-  facet_wrap(~ Provincia, scales = "free_y", ncol = 1) + # scales="free_y" ajusta las etiquetas de las Islas a cada panel
+  # Separamos el gráfico en dos paneles por Provincia
+  facet_wrap(~ Provincia, scales = "free_y", ncol = 1) + 
   
   scale_fill_manual(values = c("Las Palmas" = "#1b9e77", "S.C. Tenerife" = "#d95f02")) +
   
@@ -408,24 +385,22 @@ grafico_teletrabajo_islas <- ggplot(teletrabajo_personal_canarias,
     strip.text = element_text(face = "bold") # Hace que el título de la provincia sea negrita
   )
 
-# Hacemos el gráfico interactivo
+# Hacemos el gráfico 
 ggplotly(grafico_teletrabajo_islas)
 ```
 
-Al poner el foco en Canarias, observamos Gran Canaria y Tenerife con las tasas mas altas de teletrabajo y Lanzarote o Fuerteventura con las mas bajas. Esto refleja la estructura económica de cada isla, las que dependen exclusivamente del turismo tienen muy pocaa capacidad de adaptación al trabajo remoto. 
+Al poner el foco en Canarias, observamos Gran Canaria y Tenerife con las tasas mas altas de teletrabajo y Lanzarote o Fuerteventura con las mas bajas. Esto refleja la estructura económica de cada isla, las que dependen exclusivamente del turismo tienen muy poca capacidad de adaptación al trabajo remoto. 
 
 ### Limpieza de saludmentalcanaria.json
 
 ```{r limpieza_salud_canarias_final_corregida, eval=TRUE, message=FALSE, warning=FALSE}
 
-
-
-# 2. Extracción de valores y códigos
+# Extracción de valores y códigos
 valores <- sapply(json_data$data, function(x) x$Valor)
 codigos_list <- lapply(json_data$data, function(x) x$dimCodes)
 codigos_matriz <- do.call(rbind, codigos_list)
 
-# 3. Descifrar los NOMBRES (Leyendas)
+# Descifrar los nombres
 leyenda_islas <- data.frame(
   Codigo_Isla = json_data$categories[[1]]$codes,
   Nombre_Isla = trimws(json_data$categories[[1]]$labels) 
@@ -435,7 +410,7 @@ leyenda_estado <- data.frame(
   Descripcion_Estado = trimws(json_data$categories[[3]]$labels)
 )
 
-# 4. LIMPIEZA FINAL Y UNIÓN
+# LIMPIEZA FINAL Y UNIÓN
 salud_mental_final <- data.frame(
   Valor = as.numeric(valores),
   Codigo_Isla = codigos_matriz[, 1],
@@ -445,16 +420,13 @@ salud_mental_final <- data.frame(
   left_join(leyenda_islas, by = "Codigo_Isla") %>%
   left_join(leyenda_estado, by = "Codigo_Estado") %>%
   
-  # FILTRO 1: Nos quedamos solo con PORCENTAJES
+  # Nos quedamos solo con PORCENTAJES
   filter(Codigo_Tipo == "Porcentaje") %>%
   
-  # --- FILTRO CORREGIDO --- 
-  # Eliminamos cualquier etiqueta que contenga un guion "-" (que indica sub-región)
-  # y eliminamos el total "CANARIAS".
+  # Eliminamos cualquier etiqueta que contenga un guion "-" (que indica sub-región) y eliminamos el total "CANARIAS".
   filter(!str_detect(Nombre_Isla, "-|CANARIAS")) %>%
-  # ------------------------
-  
-  # CREAMOS LA COLUMNA PROVINCIA
+
+  # Creamos la columna provincia
   mutate(
     Provincia = case_when(
       Nombre_Isla %in% c("Lanzarote", "Fuerteventura", "Gran Canaria") ~ "Las Palmas",
@@ -474,19 +446,17 @@ datatable(salud_mental_final)
 ### Grafica sobre la salud mental centrándonos en las Islas canarias
 
 ```{r grafico_salud_intensidad_canarias, eval=TRUE, message=FALSE, warning=FALSE}
-# 1. ORDENACIÓN: Ordenamos las Islas por su porcentaje de riesgo más alto para un gráfico limpio
+#Ordenamos las Islas por su porcentaje de riesgo más alto para un gráfico limpio
 salud_mental_ordenada <- salud_mental_final %>%
   filter(Estado_Mental == "6 o más") %>%
   arrange(desc(Porcentaje)) %>%
   pull(Isla)
 
-# 2. Creamos el gráfico de barras apiladas
+# Creamos el gráfico de barras apiladas
 grafico_salud_intensidad <- ggplot(salud_mental_final, 
                                      aes(x = Porcentaje, 
                                          # Usamos el factor ordenado para la Islas
-                                         y = factor(Isla, levels = rev(salud_mental_ordenada)), 
-                                         # Rellenamos con el estado mental (la pila)
-                                         fill = Estado_Mental)) +
+                                         y = factor(Isla, levels = rev(salud_mental_ordenada)), fill = Estado_Mental)) +  # Rellenamos con el estado mental 
   
   geom_bar(stat = "identity", position = "stack", width = 0.8) +
   
@@ -522,7 +492,7 @@ Este gráfico es una muestra completa de la salud mental en el archipiélago. LL
 ## Relacion entre teletrabajo y salud mental en España por comunidades
 
 ```{r objetivo1_union_grafico, eval=TRUE, message=FALSE, warning=FALSE}
-# 1. Agregamos el porcentaje de depresión por CCAA
+# Agregamos el porcentaje de depresión por CCAA
 # Sumamos todos los porcentajes, excluyendo "Ninguna" y "No consta"
 depresion_agregada <- depresion_intensidad %>%
   filter(!Intensidad %in% c("Ninguna", "No consta")) %>%
@@ -532,10 +502,10 @@ depresion_agregada <- depresion_intensidad %>%
     .groups = 'drop'
   )
 
-# 2. Unimos los datos de Depresión y Teletrabajo por la columna "Comunidad"
+# Unimos los datos de Depresión y Teletrabajo por la columna "Comunidad"
 datos_finales_obj1 <- left_join(depresion_agregada, teletrabajo_ocupados, by = "Comunidad")
 
-# 3. Mostramos la tabla final unida
+# Mostramos la tabla final unida
 datatable(datos_finales_obj1)
 ```
 
@@ -554,7 +524,7 @@ grafico_obj1 <- ggplot(datos_finales_obj1, aes(x = Porcentaje_Teletrabajo_Ocupad
   theme_minimal() +
   theme(legend.position = "bottom")
 
-# Convertimos a interactivo para ver los nombres de las CCAA al pasar el ratón
+# Vemos el gráfico
 ggplotly(grafico_obj1)
 ```
 
@@ -563,7 +533,6 @@ Sin embargo observamos excepciones. Esto valida nuestro objetivo 2, en la "Espa�
 
 ## Relacion entre teletrabajo y salud mental en las Islas Canarias 
 ```{r tabla_objetivo2_canarias, eval=TRUE, message=FALSE, warning=FALSE}
-# 1. Preparación de los datos (por si no se ha ejecutado antes)
 # Filtramos el indicador de ALTO RIESGO de salud mental ("6 o más")
 salud_mental_riesgo <- salud_mental_final %>%
   filter(Estado_Mental == "6 o más") %>%
@@ -579,15 +548,15 @@ datatable(datos_canarias_final,
 ```
 
 ```{r objetivo2_canarias_analisis, eval=TRUE, message=FALSE, warning=FALSE}
-# 1. FILTRO: Obtenemos el indicador de ALTO RIESGO de salud mental por Isla
+# FILTRO: Obtenemos el indicador de ALTO RIESGO de salud mental por Isla
 salud_mental_riesgo <- salud_mental_final %>%
   filter(Estado_Mental == "6 o más") %>%
   select(Isla, Porcentaje_Riesgo = Porcentaje) # Renombramos la columna Valor a Porcentaje_Riesgo
 
-# 2. UNIÓN: Cruzamos el riesgo de salud mental con el porcentaje de teletrabajo
+# UNIÓN: Cruzamos el riesgo de salud mental con el porcentaje de teletrabajo
 datos_canarias_final <- left_join(teletrabajo_personal_canarias, salud_mental_riesgo, by = "Isla")
 
-# 3. VISUALIZACIÓN: Scatter plot para ver la correlación en ambas provincias
+# VISUALIZACIÓN: Scatter plot para ver la correlación en ambas provincias
 
 grafico_obj2 <- ggplot(datos_canarias_final, aes(x = Porcentaje_Personal_Teletrabajador, y = Porcentaje_Riesgo)) +
   geom_point(aes(color = Isla, text = paste("Isla:", Isla, "<br>Riesgo:", Porcentaje_Riesgo, "%")), size = 5) + # Usamos text para el tooltip de plotly
@@ -618,14 +587,14 @@ Este último gráfico nos muestra el hallazgo más importante: la inversión de 
 
 **1. Comparar los numeros del teletrabajo y la depresión en las distintas comunidades autónomas para ver que tipo de tendencia siguen.¨**
 
-Hemos observado una clara tendencia ascendente confirmando que las comunidades autonomas con mayor porcentaje de teletrabajadores por ejemplo Madrid o Cataluña son tambien las que tienen el mayor porcentaje de poblacion con depresión, en cambio las comunidades con menos implantacion de teletrabajo (Castilla La Mancha, Cantabria) se situan consistentemente en los niveles mas bajos de depresión.
+Hemos observado una clara tendencia ascendente confirmando que las comunidades autónomas con mayor porcentaje de teletrabajadores como por ejemplo Madrid o Cataluña son tambien las que tienen el mayor porcentaje de poblacion con depresión, en cambio las comunidades con menos implantación de teletrabajo (Castilla La Mancha, Cantabria) se situan consistentemente en los niveles mas bajos de depresión.
 Destacamos que hay comunidades que se salen de lo establecido como Castilla y León que con un bajo porcentaje de pobalción teletrabajadora muestra el mayor nivel de población con niveles depresivos. 
 
 **2. Analisis de las excepciones a la tendencia.**
 
-Aun que la tendencia nacional es que "a mas teletrabajo mas depresión" comunidades como Castilla y León o Galicia rompen esta regla, se situan en la zona de bajo teletrabajo pero altos niveles de depresión. Esto desmuesta que el teletrabajo no es el único culpable en estas comunidades factores demográficos como el envejecimiento de la población y la dispersión rural tienen un peso mucho mayor en la salud mental que la modalidad de teletrabajo que estamos analizando. 
+Aun que la tendencia nacional es que "a mas teletrabajo mas depresión" comunidades como Castilla y León o Galicia rompen esta regla, se situan en la zona de bajo teletrabajo pero altos niveles de depresión. Esto desmuesta que el teletrabajo no es el único culpable en estas comunidades si no que factores demográficos como el envejecimiento de la población y la dispersión rural tienen un peso mucho mayor en la salud mental que la modalidad de teletrabajo que estamos analizando. 
 
- Mientras que en Madrid el estres puede venir de la hiperconexión y el teletrabajo en castilla y león el riesgo para la salud mental proviene de otros factores, lo que genera cifras altas de depresión sin necesidad de teletrabajo. 
+Mientras que en Madrid el estrés puede venir de la hiperconexión y el teletrabajo en Castilla y León el riesgo para la salud mental proviene de otros factores, lo que genera cifras altas de depresión sin necesidad de teletrabajo. 
 
 **3. ¿Qué pasa en un lugar específico? Estudiamos de cerca las islas canarias para ver si la gente que teletrabaja tiene mas riesgo mental. **
 
@@ -638,7 +607,7 @@ Esto puede corresponderse a que las islas con menos teletrabajo como hemos dicho
 Los datos de El Hierro y Gran Canaria nos revelan el matiz crucial en el archipiélago, el teletrabajo parece actuar como un factor protector asociado a la inestabilidad laboral. En estas islas tener un trabajo que permita teletrabajar es un privilegio que portege tu salud mental frente a la incertidumbre económica que nos puede provocar el turismo.
 
 
-## Conclusión General
+### Conclusión General
 
 El objetivo general era ver si existe una conexión entre el teletrabajo y la salud mental en la población española.
 
